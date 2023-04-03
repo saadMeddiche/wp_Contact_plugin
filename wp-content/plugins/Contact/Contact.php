@@ -37,5 +37,5 @@ add_action('deactivated_plugin', 'delete_messages_table');
 
 
 <style>
-    <?php include plugin_dir_path(__FILE__) . 'css/style.css' ?>
+    <?php include plugin_dir_path(__FILE__) . 'css/errors.css' ?><?php include plugin_dir_path(__FILE__) . 'css/adminview.css' ?>
 </style>

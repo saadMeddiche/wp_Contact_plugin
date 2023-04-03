@@ -80,7 +80,7 @@ function insert_data_message()
 {
     global $wpdb;
 
-    $table_name = 'wp_messages';
+    $table = 'wp_messages';
 
     $data = array(
         'name' =>  $_POST['Name'],
@@ -89,5 +89,5 @@ function insert_data_message()
         'message' => $_POST['Message']
     );
 
-    $wpdb->insert($table_name, $data);
+    $wpdb->insert($table, $data);
 }

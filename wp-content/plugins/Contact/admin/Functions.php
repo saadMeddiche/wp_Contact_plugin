@@ -3,9 +3,9 @@ function fetche_data_message()
 {
     global $wpdb;
 
-    $table_name = 'wp_messages';
+    $table = 'wp_messages';
 
-    $request = "SELECT * FROM $table_name";
+    $request = "SELECT * FROM $table";
 
     $data = $wpdb->get_results($request);
 
